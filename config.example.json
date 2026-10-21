@@ -1,0 +1,42 @@
+{
+  "server": "http://127.0.0.1:4599",
+  "username": "opencode",
+  "password": "",
+  "directory": "/home/tu-usuario",
+  "reuse_session": false,
+  "model": {
+    "providerID": "opencode",
+    "id": "deepseek-v4.1-flash-free"
+  },
+  "agent": "pet-mascota",
+  "mascot": "terminal",
+  "reply_timeout": 15,
+  "hide_fullscreen": true,
+  "hotkey": "ctrl+f",
+  "voice": {
+    "enabled": true,
+    "muted": false,
+    "reply": "voz",
+    "max_seconds": 20,
+    "language": "es",
+    "engine": "piper",
+    "tts_voice": "",
+    "kokoro_voice": "ef_dora",
+    "kokoro_lang": "es",
+    "kokoro_speed": 1.0,
+    "kokoro_batch": true,
+    "kokoro_first_chars": 36,
+    "kokoro_chunk_chars": 50,
+    "kokoro_max_sentences": 2,
+    "kokoro_threads": 0,
+    "kokoro_idle_exit": 180,
+    "hide_text": false,
+    "audio_gain": 0,
+    "audio_bass": 0,
+    "audio_treble": 0,
+    "length_scale": 1.0,
+    "noise_scale": 0.8,
+    "noise_w": 0.95,
+    "sentence_silence": 0.25
+  }
+}

@@ -1,0 +1,35 @@
+# --- datos locales / secretos ---
+config.json
+.env
+*.log
+*.log.old
+
+# --- modelos y binarios descargados (voice-setup.sh / kokoro-setup.sh) ---
+voice/*
+!voice/kokoro/
+voice/kokoro/*
+!voice/kokoro/tts.py
+!voice/kokoro/daemon.py
+
+# --- muestras y copias personales ---
+backups/
+muestras-voz/
+*.wav
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- escritorio / editores ---
+.DS_Store
+*.swp
+*~
+
+# --- capturas locales con datos personales (no publicar) ---
+capturas/3-oculta.png
+capturas/1-pensando.png
